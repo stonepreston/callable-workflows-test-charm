@@ -1,0 +1,7 @@
+name: Testing
+on:
+  - push
+
+jobs:
+    lint:
+        uses: stonepreston/callable_workflows_testing/.github/workflows/lint.yaml
