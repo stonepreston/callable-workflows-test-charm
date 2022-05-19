@@ -4,4 +4,4 @@ on:
 
 jobs:
     lint:
-        uses: stonepreston/callable_workflows_testing/.github/workflows/lint.yaml@main
+        uses: stonepreston/callable_workflows_testing/.github/workflows/lint-unit.yaml@main
