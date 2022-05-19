@@ -5,3 +5,5 @@ on:
 jobs:
     lint:
         uses: stonepreston/callable_workflows_testing/.github/workflows/lint-unit.yaml@main
+        with:
+          python: "['3.6', '3.7', '3.8']"
